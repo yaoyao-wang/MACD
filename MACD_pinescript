@@ -1,6 +1,6 @@
 //Step One: Initial Setting
 //@version=4
-strategy("Yaonology Bollinger Bands Tutoring", overlay = true, currency = currency.USD, initial_capital = 10000, default_qty_type = strategy.percent_of_equity, default_qty_value = 100, commission_type = strategy.commission.percent, commission_value = 0)
+strategy("Yaonology MACD Tutoring", overlay = true, currency = currency.USD, initial_capital = 10000, default_qty_type = strategy.percent_of_equity, default_qty_value = 100, commission_type = strategy.commission.percent, commission_value = 0)
 
 //Step Two: Parameter Setting
 [macdLine, signalLine, histLine] = macd(close, 12, 26, 9)
