@@ -30,7 +30,7 @@ MACD is a lagging indicator since it is based on historical data. If the MACD li
 
 ![](image/MACD_Bull_Bear_Trend.png)
 
-#### Histogram Bull/Bear Trend
+### · Histogram Bull/Bear Trend
 
 But the MACD histogram is sometimes considered a leading indicator, as it is used to anticipate signal crossovers in between the MACD line and the signal line. The bars on the histogram represents the difference between the two MAs – as the bars move further away from the central zero line, it means the MAs are moving further apart.
 
